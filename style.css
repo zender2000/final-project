@@ -3,25 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-#first{height: 600px; 
+#head{background-color: darkslategrey; height: 150px;}
+#first{height: 650px; 
     background-color:rgb(160, 77, 77);
     color: white;}
-.bong{ border: 10px solid rgba(231, 103, 109, 0.829); width: 251px; }
+.ab{ border: 10px solid rgba(231, 103, 109, 0.829); width: 251px; }
 .clgt{width: 230px; height: 400px} 
 .bo:hover{ background-color: cornflowerblue;}
 .cho:hover{ background-color: darkgray;}
      
-.lebron{border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
+.ac{border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
 .buoi{width: 230px; height: 400px}
 .cac:hover{background-color: cornflowerblue;}
 .du:hover {background-color: darkgray;}
 
-.curry{border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
+.ad{border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
 .sv{width: 230px; height: 400px}
 .abc:hover{background-color: cornflowerblue;}
 .cut:hover {background-color: darkgray;}
 
-.giannis {border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
+.ae {border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
 .an{width: 230px; height: 400px}
 .te:hover{background-color: cornflowerblue;}
 .to:hover {background-color: darkgray;}
@@ -36,3 +37,8 @@
     display: inline-block;
     font-size: 16px;
   }
+a{
+    color: white;
+    text-decoration: none;
+}
+*{font-family: 'Rubik', sans-serif;}
