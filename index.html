@@ -1,81 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="filter.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
-</head>
-<body style="background-color: rgba(29, 55, 88, 0.863)   ;">
-    <div id="head"></div>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="filter.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: rgba(29, 55, 88, 0.863)">
+    <div>
+      <img id="anhlogo" src="./Capture.PNG" />
+    </div>
     <div id="first">
-        <img src="https://c4.wallpaperflare.com/wallpaper/370/541/84/nba-basketball-sport-ball-neon-hd-wallpaper-preview.jpg" 
-        height="600" style="width: 100%;">
-    </div>  
+      <img
+        src="https://c4.wallpaperflare.com/wallpaper/370/541/84/nba-basketball-sport-ball-neon-hd-wallpaper-preview.jpg"
+        height="600"
+        style="width: 100%"
+      />
+    </div>
 
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    <input
+      type="text"
+      id="myInput"
+      onkeyup="myFunction()"
+      placeholder="Search for names.."
+    />
 
     <ul id="myUL">
-    <li><a href="#">Mhichele Jordan(MJ)</a></li>
-    <li><a href="#">Lebron James</a></li>
-
-    <li><a href="#">Stephen Curry</a></li>
-    <li><a href="#">Giannis</a></li>
+      <li><a href="#">Mhichele Jordan(MJ)</a></li>
+      <li><a href="#">Lebron James</a></li>
+      <li><a href="#">Kobe Bryant</a></li>
+      <li><a href="#">Stephen Curry</a></li>
+      <li><a href="#">Giannis Antetokounmpo</a></li>
     </ul>
-        <div style="display: flex;position: relative; justify-content: space-evenly; margin-top: 0px; margin-bottom: 50px; margin-top: 100px;">
-            <div class="ab" style="background-color: darksalmon;">
-                <img   class="clgt" src="https://i.pinimg.com/originals/4f/38/be/4f38be2f5a3f8aeeeec038890ea8388e.jpg">
-                <p> Michele Jordan (MJ)</p>
-                <hr>
-                <p class="bo" style="padding-left:10px;">Michael Jeffrey Jordan, also known by his initials MJ, is an American businessman and former professional basketball player. 
-                        He is the principal owner and chairman of the Charlotte Hornets of the National Basketball Association and of 23XI Racing in the NASCAR Cup Series</p>
-                <a href="jordan.html">Learn More</a>
-            </div>
-            <div class="ac" style="background-color: darksalmon;">
-                <img   class="buoi" src="https://i.pinimg.com/736x/05/1a/1a/051a1a039d72989fbfd6735fec7b93fa.jpg">
-                <p> Lebron James</p>
-                <hr>
-                <p class="cac" style="padding-left:10px;"> An American professional basketball player for the Los Angeles Lakers of the National Basketball Association. Widely considered one of the greatest NBA players in history,
-                                        James is frequently compared to Michael Jordan in debates over the greatest basketball</p>
-                <a href="lebron.html">Learn More</a>
-            </div>
-            <div class="ad" style="background-color: darksalmon;">
-                <img   class="sv" src="https://render.fineartamerica.com/images/rendered/default/print/5.5/8/break/images/artworkimages/medium/3/stephen-curry-wachira-kacharat.jpg">
-                <p> Stephen Curry</p>
-                <hr>
-                <p class="abc" style="padding-left:10px;"> Stephen "Steph" Curry II is an American professional basketball player for the Golden State Warriors of the National Basketball Association.
-                                        Many analysts and players have called him the greatest shooter in NBA history</p>
-                <a href="curry.html" style="position: absolute; bottom: 10px;">Learn More</a>
-            </div>
-            <div class="ae" style="background-color: darksalmon;">
-                <img   class="an" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/giannis-antetokounmpo-milwaukee-bucks-nba-afrio-adistira.jpg">
-                <p> Giannis Antetokounmpo </p>
-                <hr>
-                
-              
-                <p class="to">Giannis Sina Ugo Antetokounmpo is a Greek professional basketball player for the Milwaukee Bucks of the National Basketball Association.
-                     Born in Greece to Nigerian parents, Antetokounmpo began playing basketball for the youth teams of Filathlitikos in Athens.</p>
-                <a href="giannis.html" style="position: absolute; bottom: 10px;">Learn More</a>
-            </div>
-            <div>
-                <button class="button"></button>
-            </div>
-        </div>
-<hr>
-<div style="background-color: rgb(72, 116, 129);">
-    <h1 style="text-align: center;"> WANT TO LEARN MORE ABOUT US? </h1>
-    <h1 style="text-align: center;">CLICK THESE LINK DOWN HERE AND YOU HAVE EVERYTHING YOU NEED!</h1>
-    <div><a href="home.html">/*/*//////////////////////////////////////////////////////*/*HOME*/*/////////////////////////////////////////////////////////////////////*/*/</a></div>
-    <div><a href="help.html">/*/*//////////////////////////////////////////////////////*/*ABOUT US */*/////////////////////////////////////////////////////////////////////*/*/</a></div>
-</div>
-<<<<<<< Updated upstream
-    <script src="./app.js"></script>
-=======
+    <div
+      style="
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+      "
+    >
+      <div class="ab" style="background-color: darksalmon">
+        <img
+          class="clgt"
+          src="https://i.pinimg.com/originals/4f/38/be/4f38be2f5a3f8aeeeec038890ea8388e.jpg"
+        />
+        <p>Michele Jordan (MJ)</p>
+        <hr />
+        <p class="bo" style="padding-left: 10px">
+          Michael Jeffrey Jordan, also known by his initials MJ, is an American
+          businessman and former professional basketball player. He is the
+          principal owner and chairman of the Charlotte Hornets of the National
+          Basketball Association and of 23XI Racing in the NASCAR Cup Series
+        </p>
+        <a href="jordan.html">Learn More</a>
+      </div>
+
+      <div class="ac" style="background-color: darksalmon">
+        <img
+          class="buoi"
+          src="https://i.pinimg.com/736x/05/1a/1a/051a1a039d72989fbfd6735fec7b93fa.jpg"
+        />
+        <p>Lebron James</p>
+        <hr />
+        <p class="cac" style="padding-left: 10px">
+          An American professional basketball player for the Los Angeles Lakers
+          of the National Basketball Association. Widely considered one of the
+          greatest NBA players in history, James is frequently compared to
+          Michael Jordan in debates over the greatest basketball
+        </p>
+        <a href="lebron.html">Learn More</a>
+      </div>
+      <div class="ad" style="background-color: darksalmon">
+        <img
+          class="sv"
+          src="https://render.fineartamerica.com/images/rendered/default/print/5.5/8/break/images/artworkimages/medium/3/stephen-curry-wachira-kacharat.jpg"
+        />
+        <p>Stephen Curry</p>
+        <hr />
+        <p class="abc" style="padding-left: 10px">
+          Stephen "Steph" Curry II is an American professional basketball player
+          for the Golden State Warriors of the National Basketball Association.
+          Many analysts and players have called him the greatest shooter in NBA
+          history
+        </p>
+        <a href="curry.html" style="position: absolute; bottom: 10px"
+          >Learn More</a
+        >
+      </div>
+      <div class="ae" style="background-color: darksalmon">
+        <img
+          class="an"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/giannis-antetokounmpo-milwaukee-bucks-nba-afrio-adistira.jpg"
+        />
+        <p>Giannis Antetokounmpo</p>
+        <hr />
+
+        <p class="to">
+          Giannis Sina Ugo Antetokounmpo is a Greek professional basketball
+          player for the Milwaukee Bucks of the National Basketball Association.
+          Born in Greece to Nigerian parents, Antetokounmpo began playing
+          basketball for the youth teams of Filathlitikos in Athens.
+        </p>
+        <a href="giannis.html" style="position: absolute; bottom: 10px"
+          >Learn More</a
+        >
+      </div>
+      <div>
+        <button class="button"></button>
+      </div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-top: 100px;
+      "
+    >
+      <div class="kobe" style="background-color: darksalmon;">
+        <img
+          class="kobe2"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/kobe-bryant-basketball-art-portrait-painting-andres-ramos.jpg"
+          alt=""
+        />
+        <p>Kobe Bryant</p>
+        <hr />
+        <p class="ha" style="padding-left: 10px">
+          Kobe Bean Bryant was an American professional basketball player. A
+          shooting guard , he spent his entire 20-year career with the Los
+          Angeles Lakers in the National Basketball Association
+        </p>
+        <a href="jordan.html">Learn More</a>
+      </div>
+      <div class="kobe" style="background-color: darksalmon;">
+        <img
+          class="kobe2"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/kobe-bryant-basketball-art-portrait-painting-andres-ramos.jpg"
+          alt=""
+        />
+        <p>Kobe Bryant</p>
+        <hr />
+        <p class="ha" style="padding-left: 10px">
+          Kobe Bean Bryant was an American professional basketball player. A
+          shooting guard , he spent his entire 20-year career with the Los
+          Angeles Lakers in the National Basketball Association
+        </p>
+        <a href="jordan.html">Learn More</a>
+      </div>
+      <div class="kobe" style="background-color: darksalmon;">
+        <img
+          class="kobe2"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/kobe-bryant-basketball-art-portrait-painting-andres-ramos.jpg"
+          alt=""
+        />
+        <p>Kobe Bryant</p>
+        <hr />
+        <p class="ha" style="padding-left: 10px">
+          Kobe Bean Bryant was an American professional basketball player. A
+          shooting guard , he spent his entire 20-year career with the Los
+          Angeles Lakers in the National Basketball Association
+        </p>
+        <a href="jordan.html">Learn More</a>
+      </div>
+      <div class="kobe" style="background-color: darksalmon;">
+        <img
+          class="kobe2"
+          src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/kobe-bryant-basketball-art-portrait-painting-andres-ramos.jpg"
+          alt=""
+        />
+        <p>Kobe Bryant</p>
+        <hr />
+        <p class="ha" style="padding-left: 10px">
+          Kobe Bean Bryant was an American professional basketball player. A
+          shooting guard , he spent his entire 20-year career with the Los
+          Angeles Lakers in the National Basketball Association
+        </p>
+        <a href="jordan.html">Learn More</a>
+      </div>
+    </div>
+
+    <hr />
+
+    <div style="background-color: rgb(72, 116, 129)">
+      <h1 style="text-align: center">WANT TO LEARN MORE ABOUT US?</h1>
+      <h1 style="text-align: center">
+        CLICK THESE LINK DOWN HERE AND YOU HAVE EVERYTHING YOU NEED!
+      </h1>
+      <div>
+        <a href="home.html"
+          >/*/*//////////////////////////////////////////////////////*/*HOME*/*/////////////////////////////////////////////////////////////////////*/*/</a
+        >
+      </div>
+      <div>
+        <a href="help.html"
+          >/*/*//////////////////////////////////////////////////////*/*ABOUT US
+          */*/////////////////////////////////////////////////////////////////////*/*/</a
+        >
+      </div>
+    </div>
     <script src="filter.js"></script>
->>>>>>> Stashed changes
-</body>
+  </body>
 </html>
