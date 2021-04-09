@@ -1,44 +1,115 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#head{background-color: darkslategrey; height: 150px;}
-#first{height: 650px; 
-    background-color:rgb(160, 77, 77);
-    color: white;}
-.ab{ border: 10px solid rgba(231, 103, 109, 0.829); width: 251px; }
-.clgt{width: 230px; height: 400px} 
-.bo:hover{ background-color: cornflowerblue;}
-.cho:hover{ background-color: darkgray;}
-     
-.ac{border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
-.buoi{width: 230px; height: 400px}
-.cac:hover{background-color: cornflowerblue;}
-.du:hover {background-color: darkgray;}
+#head {
+  background-color: darkslategrey;
+  height: 150px;
+  margin: 5px;
+}
 
-.ad{border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
-.sv{width: 230px; height: 400px}
-.abc:hover{background-color: cornflowerblue;}
-.cut:hover {background-color: darkgray;}
+#first {
+  height: 650px;
 
-.ae {border: 10px solid rgba(231, 103, 109, 0.829); width: 251px;} 
-.an{width: 230px; height: 400px}
-.te:hover{background-color: cornflowerblue;}
-.to:hover {background-color: darkgray;}
+  background-color: rgb(160, 77, 77);
+  color: white;
+}
+.ab {
+  border: 10px solid rgba(231, 103, 109, 0.829);
+  width: 251px;
+}
+.clgt {
+  width: 230px;
+  height: 400px;
+}
+.bo:hover {
+  background-color: cornflowerblue;
+}
+
+.kobe {
+    border: 5px solid rgba(231, 103, 109, 0.829);
+    width: 251px;
+  }
+  .kobe2 {
+    width: 230px;
+    height: 400px;
+  }
+  .bo:ha {
+    background-color: cornflowerblue;
+  }
+
+.cho:hover {
+  background-color: darkgray;
+}
+
+.ac {
+  border: 10px solid rgba(231, 103, 109, 0.829);
+  width: 251px;
+}
+.buoi {
+  width: 230px;
+  height: 400px;
+}
+.cac:hover {
+  background-color: cornflowerblue;
+}
+.du:hover {
+  background-color: darkgray;
+}
+
+.ad {
+  border: 10px solid rgba(231, 103, 109, 0.829);
+  width: 251px;
+}
+.sv {
+  width: 230px;
+  height: 400px;
+}
+.abc:hover {
+  background-color: cornflowerblue;
+}
+.cut:hover {
+  background-color: darkgray;
+}
+
+.ae {
+  border: 10px solid rgba(231, 103, 109, 0.829);
+  width: 251px;
+}
+.an {
+  width: 230px;
+  height: 400px;
+}
+.te:hover {
+  background-color: cornflowerblue;
+}
+.to:hover {
+  background-color: darkgray;
+}
+
+#anhlogo {
+  height: 150px;
+
+  width: auto;
+  margin: 30px;
+  border-radius: 50px;
+}
 
 .button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
-a{
-    color: white;
-    text-decoration: none;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
-*{font-family: 'Rubik', sans-serif;}
+a {
+  color: white;
+  text-decoration: none;
+}
+* {
+  font-family: "Rubik", sans-serif;
+}
